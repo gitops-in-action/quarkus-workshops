@@ -1272,7 +1272,7 @@ spec:
   selector:
     app: ui-super-heroes
     application: super-heroes
-  type: LoadBalancer
+  type: ClusterIP
 ---
 apiVersion: networking.k8s.io/v1
 kind: Ingress
